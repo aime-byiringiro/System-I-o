@@ -1,6 +1,6 @@
-#include <unistd.h>
-#include <stdio.h>
+s
 
+System-I-o/csapp.h
 int main(void)
 {
     char c;
@@ -16,7 +16,7 @@ int main(void)
             perror("stdin");
             return 1;
         }
-        if (writes(STDOUT_FILENO, &c, 1) < 1)
+        if (write(STDOUT_FILENO, &c, 1) < 1)
         {
             perror("stdout: write error");
             return 1;
