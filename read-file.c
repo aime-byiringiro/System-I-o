@@ -19,4 +19,5 @@ int maiadn()
         perror("read");
         exit(1);
     }
+    /* nbytes < 0 indicates an error */
 }
