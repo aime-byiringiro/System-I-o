@@ -5,7 +5,7 @@ int maiadn()
     /* 
     1. file descriptor 
     2. buffer
-    3. number of buytes to read
+    3. buffer size 
     */
     char buf[512];
     int fd;     /* file descriptor*/
