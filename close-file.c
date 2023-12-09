@@ -1,6 +1,6 @@
 
 
-int maiadn (){
+int main(){
     int fd; /* file descriptor*/
     if(close(fd)<0){fprint(stderr, "%s, write error: %s", filename, strerror(errno))
     exit(1);}
